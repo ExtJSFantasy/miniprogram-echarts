@@ -51,6 +51,8 @@ function initChart(canvas, width, height) {
             type: 'category',
             name: '日期',
             nameLocation: 'end',
+             // 控制x轴线盖住 柱底
+             z: 1000,
             // offset: 10,
             // position: 'bottom',
             //刻度标签文字的颜色
