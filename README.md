@@ -1,2 +1,2 @@
 miniprogram-echarts
-![Image text](https://github.com/ExtJSFantasy/miniprogram-echarts/blob/master/images/show.png)
+![Image text](https://github.com/ExtJSFantasy/miniprogram-echarts/raw/master/images/show.png)
