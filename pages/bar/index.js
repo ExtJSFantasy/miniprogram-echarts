@@ -103,19 +103,9 @@ function initChart(canvas, width, height) {
                 color: '#000000',
                 formatter: function (value) {
                     var texts = [];
-                    if (value < 1) {
+                    if (value <= 0) {
                         texts.push('');
-                    }
-                    else if (value <= 200) {
-                        texts.push(value);
-                    }
-                    else if (value <= 300) {
-                        texts.push(value);
-                    }
-                    else if (value <= 400) {
-                        texts.push(value);
-                    }
-                    else {
+                    }else  {
                         texts.push(value);
                     }
                     return texts;
