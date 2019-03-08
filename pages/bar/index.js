@@ -38,7 +38,11 @@ function initChart(canvas, width, height) {
                     color: 'rgb(205, 148, 15)'
                 }
             }],
-            left: 'center',
+            left: 'right',
+            // 控制legend位置 上右下左
+            padding: [0, 20, 0, 0],
+            // 控制距离顶部的位置
+            top: 30,
             z: 100
         },
         grid: {
