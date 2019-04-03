@@ -28,14 +28,14 @@ function initChart(canvas, width, height) {
                 icon:'bar',
                 textStyle:{
                     fontSize: 12,
-                    color: 'rgb(225, 212, 168)'
+                    color: 'rgb(205, 148, 15)'
                 }
             }, {
                 name: '宝宝情况',
                 icon:'bar',
                 textStyle:{
                     fontSize: 12,
-                    color: 'rgb(205, 148, 15)'
+					color: 'rgb(225, 212, 168)'
                 }
             }],
             left: 'right',
@@ -141,7 +141,7 @@ function initChart(canvas, width, height) {
             }
         },
         series: [{
-            name: '标准水平',
+            name: '宝宝情况',
             data: [300, 400, 500, 600, 680, 567, 678],
             type: 'bar',
             // 柱子的宽度
@@ -166,7 +166,7 @@ function initChart(canvas, width, height) {
         },
         {
             type: 'line',
-            name: '宝宝情况',
+            name: '标准水平',
             data: [567, 578, 567, 589, 567, 567, 567],
             smooth: true,
             lineStyle: {
